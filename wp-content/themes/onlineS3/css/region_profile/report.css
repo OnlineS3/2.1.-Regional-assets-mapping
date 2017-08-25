@@ -1,0 +1,261 @@
+
+
+#report .popup-btn {
+    text-align: right;
+    margin: 20px 60px;
+    margin: 0 20px 0 10px;
+    width: 800px;
+}
+
+#report .category-caption {
+    font-weight: bold;
+    margin: 10px 0 0;
+    color: #303030;
+    font-size: 14px;
+    font-family: Verdana, sans;
+    padding: 0;
+    clear: both;
+    padding-bottom: 1rem;
+}
+
+#report .report-section {
+    padding: .5rem .5rem;
+    border: 1px solid #ddd;
+    margin: 1rem 0;
+    width: 800px;
+}
+
+#report .tbl-container {
+    padding: 0px 1.5rem;
+}
+
+#report .tbl-container .tbl-caption {
+    font-weight: bold;
+    margin: 10px 0 0;
+    color: #5C5A5A;
+    font-size: 13px;
+    font-family: Verdana, sans;
+    padding: 0;
+}
+
+#report .graph-container {
+    clear: both;
+    padding-top: 0 !important;
+}
+
+#report h2 span {
+    color: #E73131
+}
+
+#report-contents {
+    margin-top: 2rem;
+    width: 34rem;
+}
+
+#report-contents .category-block {
+    padding: 0
+}
+
+#report-contents .road {
+    
+}
+
+#report-contents label.cat-label::before {
+    position: relative;
+    display: inline-block;
+    left: -15px;
+    top: -2px;
+    width: 28px;
+    height: 28px;
+    padding-top: 13px;
+    border-radius: 100%;
+    font-size: 11px;
+    text-align: center;
+    z-index: 2;
+    font-family: 'fontawesome';
+    line-height: 0;
+    font-weight: normal;
+    color: white;
+    background-color: #007ce2;
+}
+
+#report-contents label.cat-label.current::before {
+    background-color: #666666;
+    font-size: 14px;
+    width: 2rem;
+    height: 2rem;
+    font-size: 15px;
+    padding-top: 16px;
+}
+
+#report-contents label.cat-label.geo::before {
+    content: "\f0ac";
+}
+
+#report-contents label.cat-label.dem::before {
+    content: "\f183";
+}
+
+#report-contents label.cat-label.bus::before {
+    content: "\f0f7";
+}
+
+#report-contents label.cat-label.sec::before {
+    content: "\f275";
+}
+
+#report-contents label.cat-label.ino::before {
+    content: "\f109";
+}
+
+#report-contents label.cat-label.eco::before {
+    content: "\f153";
+}
+
+#report-contents label.cat-label {
+    margin-left: 2.5rem;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    padding: 11px 0;
+    color: #007ce2;
+    font-weight: 400;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+
+#report-contents label.cat-label.current {
+    color: #666666;
+    font-weight: 600;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#report-contents input[type='checkbox']:not(:checked) + .category-block {
+    display: none
+}
+
+#report-contents input[type='checkbox']:checked + .category-block {
+    display: block
+}
+
+#report-contents ul.road {
+    margin-left: 30px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#report-contents ul.road li {
+    list-style-type: none;
+    position: relative;
+}
+
+#report-contents ul.road li a {
+    display: block;
+    padding: 5px 0;
+    margin-left: 24px;
+    z-index: +2;
+    position: relative;
+    color: #007ce2;
+    font-size: 13px;
+    text-decoration: none;
+    color: #4d4a4a;
+    cursor: default
+}
+    
+#report-contents ul.road li::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: -30px;
+    top: 19px;
+    width: 24px;
+    margin: auto;
+    height: 1px;
+    border-bottom: 1px solid #0f80dd;
+}
+
+#report-contents ul.road li::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    margin: auto;
+    height: calc(100% + (38px));
+    width: 1px;
+    border-left: 1px solid #0f80dd;
+}
+
+#report-contents ul.road li:last-child::after {
+    height: 0px;
+}
+
+#report-contents ul.road li a::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    left: -29px;
+    right: auto;
+    top: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    margin: auto;
+    padding-top: 0px;
+    border-radius: 100%;
+    color: #fff;
+    background-color: #007ce2;
+    font-size: 11px;
+    line-height: 1;
+    text-align: center;
+    top: 14px;
+    bottom: auto;
+    pointer-events: none;
+    border: 1px solid #007ce2;
+    background-color: white;
+    border: 1px solid #076dc2
+}
+
+#report-contents ul.road li a.checked::before {
+    background-color: #007ce2;
+    font-size: 6px;
+    font-weight: bold;
+    padding-top: 1px;
+}
+    
+#report-contents .check-icon {
+    margin-left: 1rem;
+    font-size: 15px;
+    color: #6f7b81;
+}
+
+#report .scroll-y {
+    display: none
+}
+
+#report .tbl-div,
+#report .scroll-wrapper.tbl-dt {
+    max-height: none;
+}
+
+#report .graph-container {
+    padding: 0px 1.5rem;
+}
+
+#export-report p {
+    font-family: "tahoma" !important
+}
+
+
+#report h2 {
+    font-size: 22px;
+    color: #676767;
+    font-style: normal;
+    font-weight: 400;
+    clear: both;
+    margin: 15px 0 20px 0;
+    font-size: 21px;
+}

@@ -1,0 +1,14 @@
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.axis path, .x.axis line,
+.y.axis path, .y.axis line {
+    stroke: none;
+}
+
+path {
+    stroke-width: 1;
+    fill: none;
+}
