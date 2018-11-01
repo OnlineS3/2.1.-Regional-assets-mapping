@@ -3,9 +3,9 @@
 Draw together information on key regional assets. The objective is to support data transparency that enables gap analysis of regional assets.
 
 <p float="left">
-  <img src="https://assetsmapping.s3platform.eu/images/guide/guide-1.png" width="240" />
-  <img src="https://assetsmapping.s3platform.eu/images/guide/guide-6.png" width="240" />
-  <img src="https://assetsmapping.s3platform.eu/images/guide/guide-7.png" width="240" />
+  <img src="https://assetsmapping.s3platform.eu/images/guide/guide-1.png" width="250" />&nbsp; &nbsp; &nbsp;
+  <img src="https://assetsmapping.s3platform.eu/images/guide/guide-6.png" width="250" />&nbsp; &nbsp; &nbsp;
+  <img src="https://assetsmapping.s3platform.eu/images/guide/guide-7.png" width="250" />&nbsp; &nbsp; &nbsp;
 </p>
 
 ## Prerequisites
